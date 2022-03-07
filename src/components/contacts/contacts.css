@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.c{
+    height: 100vh;
+    padding-top: 30%;
+    position: relative;
+}
+
+.c-me{
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: grey;
+}
+.c-bg{
+    background-color: antiquewhite;
+    height: 50%;
+    width: 10px;
+    position: absolute;
+    top:160px;
+    left: 0;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.f-name input {
+    width: 20rem;
+    height: 3rem;
+    outline: none;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: grey;
+}
+.f-email input {
+    width: 20rem;
+    height: 3rem;
+    outline: none;
+    border: 1px solid grey; 
+     margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: grey;
+}
+
+.f-message textarea {
+    width: 20rem;
+    height: 5rem;
+    outline: none;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: grey;
+}
+.f-btn{
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.f-btn:hover{
+    background-color: grey;
+    color: white;
+    font-weight: 900;
+}
+
